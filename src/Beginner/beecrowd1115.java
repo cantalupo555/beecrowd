@@ -10,7 +10,6 @@ public class beecrowd1115 {
         int Y = sc.nextInt();
 
         while(X != 0 && Y != 0) {
-
             if(X > 0 && Y > 0) {
                 System.out.println("primeiro");
             } else if(X < 0 && Y > 0) {
@@ -23,15 +22,14 @@ public class beecrowd1115 {
 
             X = sc.nextInt();
             Y = sc.nextInt();
-
         }
 
         sc.close();
     }
-
 }
 
-/* Escreva um programa para ler as coordenadas (X,Y) de uma quantidade indeterminada de pontos no sistema cartesiano.
+/* Quadrante
+Escreva um programa para ler as coordenadas (X,Y) de uma quantidade indeterminada de pontos no sistema cartesiano.
 Para cada ponto escrever o quadrante a que ele pertence.
 O algoritmo será encerrado quando pelo menos uma de duas coordenadas for NULA (nesta situação sem escrever mensagem alguma).
 
